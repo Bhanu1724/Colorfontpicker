@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>canvas</title>
+<link rel="stylesheet" href="color.css"> 
+<script src="scrip.js"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>  
+    </head>
+    <body>
+    <div id=Container>
+            <center><h1 contenteditable="true" id="text"></h1></center>
+            <div id="color">
+                <h3>Text Colour</h3>
+                <button id="b1" onclick="textColor('red')"></button>
+                <button id="b2" onclick="textColor('green')"></button>
+                <button id="b3" onclick="textColor('pink')"></button>
+                <button id="b4" onclick="textColor('yellow')"></button>
+                <button id="b5" onclick="textColor('blue')"></button>
+                <button id="b6" onclick="textColor('aqua')"></button>
+                <button id="b7" onclick="textColor('grey')"></button>
+                <button id="b8" onclick="textColor('purple')"></button>
+                <button id="b9" onclick="textColor('brown')"></button>
+                <button id="b10" onclick="textColor('deeppink')"></button>
+                <button id="b11" onclick="textColor('orangered')"></button>
+               
+            </div>
+            </div>
+        <div id="color">
+            <h3>Back Ground Color</h3>
+            <button id="b1" onclick="backColor('red')"></button>
+            <button id="b2" onclick="backColor('green')"></button>
+            <button id="b3" onclick="backColor('pink')"></button>
+            <button id="b4" onclick="backColor('yellow')"></button>
+            <button id="b5" onclick="backColor('blue')"></button>
+            <button id="b6" onclick="backColor('aqua')"></button>
+            <button id="b7" onclick="backColor('grey')"></button>
+            <button id="b8" onclick="backColor('purple')"></button>
+            <button id="b9" onclick="backColor('brown')"></button>
+            <button id="b10" onclick="backColor('deeppink')"></button>
+            <button id="b11" onclick="backColor('orangered')"></button>
+        </div>
+        <div id ="style">
+        <h3>Text Style</h3>
+        <button class="c1" onclick="fontstyle('Arial')">Arial</button>
+        <button class="c1" onclick="fontstyle('Cursive')">cursive</button>
+        <button class="c1" onclick="fontstyle('Verdana')">verdana</button>
+        <button class="c1" onclick="fontstyle('Tahoma')">tahoma</button>
+        <button class="c1" onclick="fontstyle('Roboto')">Roboto</button>
+        <button class="c1" onclick="fontstyle('Times New Roman')">Roman</button>
+        <button class="c1" onclick="fontstyle('Tahoma')">Tahoma</button>
+        <button class="c1" onclick="fontstyle('Georgia')">Georgia</button>
+    
+        </div>
+        <div id="style">
+            <h3>fontsize</h3>
+            <button onclick="textfontsize(5)">5px</button>
+            <button onclick="textfontsize(10)">10px</button>
+            <button onclick="textfontsize(15)">15px</button>
+            <button onclick="textfontsize(20)">20px</button>
+            <button onclick="textfontsize(25)">25px</button>
+            <button onclick="textfontsize(30)">30px</button>
+            <button onclick="textfontsize(35)">35px</button>
+            <button onclick="textfontsize(40)">40px</button>
+            <button onclick="textfontsize(45)">45px</button>
+        
+        </div>
+        <button onclick="Downloadpic()" id="download">Download</button>
+        
+    </div>
+        
+    
+    
+        
+    </body>
+    </html>
+    
+    

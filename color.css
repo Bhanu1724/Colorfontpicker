@@ -1,0 +1,118 @@
+body{
+    text-align: center;
+}
+h1{
+    height:300px;
+    width:700px;
+    
+    border:1px solid black;
+    
+}
+#color button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+}
+#b1{
+    
+    background-color:red;
+
+}
+#b2{
+    
+    background-color:green;
+}
+#b3{
+    
+    background-color:pink;
+    border-radius: 50%;
+}
+#b4{
+    
+    background-color:yellow;
+    
+}
+#b5{
+
+    background-color:blue;
+
+}
+#b6{
+    background-color: aqua;
+
+}
+button{
+    
+}
+#back{
+    border: 1px solid  ;
+    width: 500px;
+    margin: 20px auto;
+    border-radius: 20px;
+    padding-bottom: 20px;
+
+}
+#style button{
+    background-color: black;
+    color:aqua;
+    border: 1px solid;
+    
+}
+#size button{
+    background-color: black;
+    color: aqua;
+    border: 1px solid ;
+    border-radius: 50%;
+}
+#b6{
+    background-color: aqua;
+}
+#b7{
+    background-color: grey;
+}
+#b8{
+    background-color: purple;
+}
+#b9{
+    background-color:brown;
+}
+#b10{
+    background-color: deeppink;
+}
+#b11{
+    background-color: orangered;
+}
+#download{
+    margin-top: 30px;
+    background-color:rgb(0, 123, 255);
+    color: white ;
+    transition: all 0.2s;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    margin-bottom: 50px;
+    box-shadow: 0px 0px 5px black;
+}
+#download:hover{
+    transform: scale(1.1);
+    background-color: red;
+}
+
+#color,#style{
+    margin:20px auto;
+    width: 700px;
+    padding-bottom:10px;
+    border-radius:10px;
+    box-shadow: 5px 5px 15px  red;
+}
+#style{
+    height: 100px;
+}
+#color:hover{
+    color: aqua;
+    background-color:pink;
+}
+ 
